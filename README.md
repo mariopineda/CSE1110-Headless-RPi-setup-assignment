@@ -19,31 +19,24 @@ When the menu appears  Select the advanced option -> VNC -> Enable VNC and Selec
 
 - [ ] Exit ```raspi-config``` (using the tab key to move the cursor between menu items)
 - [ ] Shutdown your RPi by running the following command in the terminal: ```sudo shutdown -h now```
+- [ ] Unplug the Ethernet cable and power cable
+- [ ] Reboot your RPi by plugging in the power cable
+- [ ] Once you RPi has booted connect it to the EPS Internet Only Wifi network
+- [ ] Shut down your RPi by running sudo shutdown -h now and unplug the power cable
 
+# Step 2: Setup Windows computer for connecting to RPi
+- Download and install the following software on a windows computer (laptop)
+  - [ ] Bonjour Windows Print Services Using Apple: https://support.apple.com/kb/DL999?locale=en_GB
+  - [ ] Bonjour Browser: http://hobbyistsoftware.com/bonjourbrowser
+  - [ ] Install Putty: http://www.putty.org/
+  - [ ] Install the VNC Viewer for Google Chrome App from the Chrome Web Store
 
-Unplug the Ethernet cable and power cable
-
-
-Reboot your RPi by plugging in the power cable
-Once you RPi has booted connect it to the EPS Internet Only Wifi network
-Shut down your RPi by running sudo shutdown -h now and unplug the power cable
-Step 2: Setup Windows computer for connecting to RPi
-Download and install the following software on a windows computer (laptop)
-Bonjour Windows Print Services Using Apple: https://support.apple.com/kb/DL999?locale=en_GB
-Bonjour Browser: http://hobbyistsoftware.com/bonjourbrowser
-Install Putty: http://www.putty.org/
-Install the VNC Viewer for Google Chrome App from the Chrome Web Store
-Connecting remotely to the RPi from laptop (VNC mode)
+# Step 3: Connecting remotely to the RPi from laptop (VNC mode)
 Establishing a VNC connection between Windows and RPi by following these steps:
-Connect RPi with an Ethernet cable to the ethernet port of a Windows laptop
-Boot RPi by plugging it in (it will not not need a keyboard, mouse or monitor. Only the power cord and the Ethernet cable should be plugged into the RPi).
-Launch the BonjourBrowser on the Windows computer and click the refresh button until you see the RPi being detected
-Select the RPi VNC server and copy the IP number
-Open VNC Viewer for Google Chrome App through Chrome paste in the IP address when prompted
-Press connect… wait for the terminal window to appear.
-Log into your RPi.
-
-
-
-
-
+- [ ] Connect RPi with an Ethernet cable to the ethernet port of a Windows laptop
+- [ ] Boot RPi by plugging it in (it will not not need a keyboard, mouse or monitor. Only the power cord and the Ethernet cable should be plugged into the RPi).
+- [ ] Launch the BonjourBrowser on the Windows computer and click the refresh button until you see the RPi being detected
+- [ ] Select the RPi VNC server and copy the IP number
+- [ ] Open VNC Viewer for Google Chrome App through Chrome paste in the IP address when prompted
+- [ ] Press connect… wait for the terminal window to appear.
+- [ ] Log into your RPi.
