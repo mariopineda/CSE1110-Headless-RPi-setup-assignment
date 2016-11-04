@@ -8,7 +8,7 @@ When you have completed the assignment you do not have to turn it in online, jus
 # Step 1: Set up RPi by connecting it to an existing screen
 Before you are able to connect to your RPi from a Windows computer you need update the system and enable SSH and VNC on the RPi by connecting it to an external monitor, ethernet, keyboard and mouse. Start up your RPi and open a terminal. 
 
-- [ ] Start by updating your RPi by running the following commands from the terminal:
+- [x] Start by updating your RPi by running the following commands from the terminal:
 ```
 sudo apt-get update
 sudo apt-get upgrade
