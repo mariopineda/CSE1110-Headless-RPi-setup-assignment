@@ -1,7 +1,9 @@
 # CSE1110-Headless-RPi-setup-assignment
 Assignment for CSE1110 for setting up a headless Raspberry Pi (connected with Ethernet cable to Windows 10 laptop).
 
-To complete this assignment you have to follow the described steps and check off all the steps you have completed succesfully (check them off using markdown, see https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments for how to do this). When you have completed the assignment show your running headless RPi to your teacher to have it marked. 
+To complete this assignment you have to follow the described steps and check off all the steps you have completed succesfully (check them off using markdown, see https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments for how to do this). 
+
+When you have completed the assignment you do not have to turn it in online, just show your running headless RPi setup to your teacher to have it marked. Your teacher may ask you questions about your set up and may ask you to demonstrated how to set it up.
 
 # Step 1: Set up RPi by connecting it to an existing screen
 Before you are able to connect to your RPi from a Windows computer you need update the system and enable SSH and VNC on the RPi by connecting it to an external monitor, ethernet, keyboard and mouse. Start up your RPi and open a terminal. 
@@ -22,7 +24,7 @@ When the menu appears  Select the advanced option -> VNC -> Enable VNC and Selec
 - [ ] Unplug the Ethernet cable and power cable
 - [ ] Reboot your RPi by plugging in the power cable
 - [ ] Once you RPi has booted connect it to the EPS Internet Only Wifi network
-- [ ] Shut down your RPi by running sudo shutdown -h now and unplug the power cable
+- [ ] Shut down your RPi by running ```sudo shutdown -h now``` and unplug the power cable. Note: you have to shutdown the RPi through the terminal (not through the GUI) to get marks for this item.
 
 # Step 2: Setup Windows computer for connecting to RPi
 - Download and install the following software on a windows computer (laptop)
