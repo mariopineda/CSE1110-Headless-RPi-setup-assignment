@@ -2,6 +2,9 @@
 # http://www.raspberrypi.org/documentation/configuration/config-txt.md
 # Some settings may impact device functionality. See link above for details
 
+# To download and install this config file run:
+# sudo cp /boot/config.txt /boot/config.txt.BACKUP; wget https://raw.githubusercontent.com/mariopineda/CSE1110-Headless-RPi-setup-assignment/master/config.txt; sudo chown root.root config.txt; sudo mv config.txt /boot/
+
 # uncomment if you get no picture on HDMI for a default "safe" mode
 #hdmi_safe=1
 
