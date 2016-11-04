@@ -42,3 +42,10 @@ Establishing a VNC connection between Windows and RPi by following these steps:
 - [ ] Open VNC Viewer for Google Chrome App through Chrome paste in the IP address when prompted
 - [ ] Press connect… wait for the terminal window to appear.
 - [ ] Log into your RPi.
+
+# Step 4 (Optional)
+To increase the resolution of the RPi desktop when displayed through VNC the /boot/config.txt file needs to be tweaked. Warning: do not change this file manually if you do not know what you are doing. The easiest way to increase the resolution to ... at the school comp sci laptops is to run the following command in the terminal on the RPi:
+```
+sudo cp /boot/config.txt /boot/config.txt.BACKUP; wget https://raw.githubusercontent.com/mariopineda/CSE1110-Headless-RPi-setup-assignment/master/config.txt; sudo chown root.root config.txt; sudo mv config.txt /boot/
+```
+After running this reboot the RPi.
