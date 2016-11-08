@@ -31,7 +31,7 @@ When the menu appears  Select the advanced option -> VNC -> Enable VNC and Selec
   - [ ] Bonjour Windows Print Services Using Apple: https://support.apple.com/kb/DL999?locale=en_GB
   - [ ] Bonjour Browser: http://hobbyistsoftware.com/bonjourbrowser
   - [ ] Install Putty: http://www.putty.org/
-  - [ ] Install the VNC Viewer for Google Chrome App from the Chrome Web Store
+  - [ ] Install the VNC Viewer for Google Chrome App from the Chrome Web Store: https://chrome.google.com/webstore/detail/vnc%C2%AE-viewer-for-google-ch/iabmpiboiopbgfabjmgeedhcmjenhbla?utm_source=gmail
 
 # Step 3: Connecting remotely to the RPi from laptop (VNC mode)
 Establishing a VNC connection between Windows and RPi by following these steps:
