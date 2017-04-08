@@ -15,14 +15,11 @@ sudo apt-get upgrade
 ```
 Check default values when prompted (just press enter).
 
-- [ ] Enable SSH and VNC by running the following command in the terminal: ```sudo raspi-config```
+- [ ] Enable SSH and VNC by clicking on the raspberry in the top left corner -> Preferences -> Raspberry Pi Configuration, select the Interfaces tab and enable SSH and VNC.
 
-Note: if you are not able to enable the VNC option your Raspberry Pi most likely does not have it installed. To install VNC run: 
-```sudo apt-get install realvnc-vnc-server```
+Note: if the VNC option is not listed in the interface manager VNC is most likely does not have it installed. To install VNC run: 
+```sudo apt-get install realvnc-vnc-server```, reboot your Raspberry Pi and try to enable it again.
 
-When the menu appears  Select the advanced option -> VNC -> Enable VNC and Select the advanced option -> SSH -> Enable SSH 
-
-- [ ] Exit ```raspi-config``` (using the tab key to move the cursor between menu items)
 - [ ] Shutdown your RPi by running the following command in the terminal: ```sudo shutdown -h now```
 - [ ] Unplug the Ethernet cable and power cable
 - [ ] Reboot your RPi by plugging in the power cable
