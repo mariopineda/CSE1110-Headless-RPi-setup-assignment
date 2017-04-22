@@ -1,9 +1,6 @@
 # For more options and information see
-# http://www.raspberrypi.org/documentation/configuration/config-txt.md
+# http://rpf.io/configtxtreadme
 # Some settings may impact device functionality. See link above for details
-
-# To download and install this config file run:
-# sudo cp /boot/config.txt /boot/config.txt.BACKUP; wget https://raw.githubusercontent.com/mariopineda/CSE1110-Headless-RPi-setup-assignment/master/config.txt; sudo chown root.root config.txt; sudo mv config.txt /boot/
 
 # uncomment if you get no picture on HDMI for a default "safe" mode
 #hdmi_safe=1
@@ -28,8 +25,8 @@
 #hdmi_force_hotplug=1
 
 # uncomment to force a specific HDMI mode (this will force VGA)
-hdmi_group=2
-hdmi_mode=39
+#hdmi_group=1
+#hdmi_mode=1
 
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
 # DMT (computer monitor) modes
@@ -60,7 +57,3 @@ dtparam=audio=on
 
 # NOOBS Auto-generated Settings:
 hdmi_force_hotplug=1
-start_x=1
-gpu_mem=128
-
-hdmi_ignore_edid=0xa5000080
