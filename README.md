@@ -12,6 +12,7 @@ Before you are able to connect to your RPi from a Windows computer you need upda
 ```
 sudo apt-get update
 sudo apt-get upgrade
+sudo apt-get dist-update
 ```
 Check default values when prompted (just press enter).
 
